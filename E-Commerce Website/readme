@@ -1,0 +1,28 @@
+E-commerce Website using Django
+Create a New Project Python Django
+Install pipenv package and django package
+MySQL database Configuration in Django settings.py
+Create and Register our app urls.py file
+Render template in Django Python
+Add Bootstrap 5 Framework in Django Python
+Create Model Class for Category, Products in Django Python
+Pillow Package For Django Python Image Upload
+makemigrations and migrate  Django Python
+createsuperuser in Django Python
+Register our Models in admin Django Python
+Change Django administration Theme by Jazzmin Package in Django Python
+Add Bootstrap 5 Carousel in Django Python
+Add Custom CSS File in Django Python
+Add url to Navbar in Django Python
+Fetch Data from MySQL Database With Category Model in Django Python
+Fetch Product Data  With Category Wise in Django Python
+Complete Product Details Using Category and Product Model
+Page Navigation for Breadcrumb in Django Python
+Product Out of Stock Management in Product Details
+Trending and Latest Products  Listing in Website
+User Registration Form in Django Python
+Bootstrap Alert Message for Django Flash Message
+User Login and Logout Page in Django Python
+Add to Cart Page in Django Python
+Cart Database Model in Django Python
+Add to Favourite in Django Python
