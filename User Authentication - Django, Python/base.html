@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% include 'cdnlines.html' %}
+    {% load static %}
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'style.css' %}"> 
+</head>
+<body>
+  <section id="header">
+    <div class="logo-container">
+      <img src="{% static 'ad.png' %}" alt="My image" class="logo">
+      <div class="brand-text">
+        <h1 class="brand-name">Advocates Academy</h1>
+      </div>
+    </div>
+    <div>
+      <ul id="navbar">
+        <li><a class="active" href="{% url 'home' %}">Home</a></li>
+        <li><a href="{% url 'course' %}">Course</a></li>
+        <li><a href="{% url 'contact' %}">Contact</a></li>
+        <li><a href="{% url 'gallery' %}">Gallery</a></li>
+        <li><a href="{% url 'service' %}">Service</a></li>
+        <li><a href="{% url 'feedback' %}">Feedback</a></li>
+      </ul>
+    </div>
+  </section>
+    
+    {% block b1 %}
+
+    {% endblock b1 %}
+
+<section id="footer">
+  <div>
+    <p>&copy; 2024 Advocates Academy. All rights reserved.</p>
+  </div>
+</section>  
+
+
+
+
+
+</body>
+</html>

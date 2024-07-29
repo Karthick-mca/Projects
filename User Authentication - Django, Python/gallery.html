@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+    {% extends 'base.html' %}
+    {% load static %}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% include 'cdnlines.html' %}
+    <title>Gallery</title> 
+</head>
+<body>
+    
+    {% block b1 %}
+    <h1>Welcome to Gallery!</h1>
+    <img src="{% static 'img1.jpg' %}" alt="My image">
+    {% endblock b1 %}
+    
+
+</body>
+</html>

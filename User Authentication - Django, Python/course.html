@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    {% extends 'base.html' %}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% include 'cdnlines.html' %}
+    {% load static %}
+    <title>Courses</title> 
+    <link rel="stylesheet" href="{% static 'style.css' %}"> 
+</head>
+<body>
+    
+    {% block b1 %}
+<center><h1>List of Provided Courses!</h1>
+    <h4>Here are some common courses students take in law school or college to obtain a law degree:</h4>
+    <ul>
+        <a href="">-> Constitutional Law: </a>Study of the U.S. Constitution, its interpretation, and its application to various legal issues.<br><br>
+        <a href="">-> Contracts: </a>Principles and rules governing the formation, performance, and enforcement of contracts.<br><br>
+        <a href="">-> Torts: </a>Laws related to civil wrongs and injuries, including negligence, intentional torts, and strict liability.<br><br>
+        <a href="">-> Property Law: </a>Rights and obligations related to real and personal property, including ownership, possession, and transfer.<br><br> 
+        <a href="">-> Civil Procedure: </a>Rules and processes for conducting civil lawsuits in court.<br><br>
+        <a href="">-> Criminal Law: </a>Definition of crimes, criminal liability, and defenses.<br><br>
+        <a href="">-> Criminal Procedure: </a>Rules and processes for conducting criminal trials and investigations.<br><br>
+        <a href="">-> Evidence: </a>Rules and principles governing the admissibility of evidence in court proceedings.<br><br>
+        <a href="">-> Legal Writing and Research: </a>Developing skills in legal analysis, writing, and research.<br><br>
+        <a href="">-> Professional Responsibility: </a>Study of ethical standards and rules governing the legal profession.<br><br>
+    </ul>
+</center>
+    {% endblock b1 %}
+    
+
+</body>
+</html>

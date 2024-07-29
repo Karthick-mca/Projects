@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    {% extends 'base.html' %}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% include 'cdnlines.html' %}
+    <title>services</title> 
+</head>
+<body>
+    
+{% block b1 %}
+
+    <table class="table">
+        <thead class="thead-light">
+            <th>courseid</th>
+            <th>coursename</th>
+            <th>duration</th>
+            <th>corsefee</th>
+            <th>startdate</th>
+            <th>enddate</th>
+            <th>certificate</th>
+        </thead>
+        <tbody>
+            {% for c in sd %}
+                <tr>
+                    <td>{{c.courseid}}</td>
+                    <td>{{c.coursename}}</td>
+                    <td>{{c.duration}}</td>
+                    <td>{{c.corsefee}}</td>
+                    <td>{{c.startdate}}</td>
+                    <td>{{c.enddate}}</td>
+                    <td>{{c.certificate}}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+{% endblock b1 %}
+    
+
+</body>
+</html>

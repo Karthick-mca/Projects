@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    {% extends 'base.html' %}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% include 'cdnlines.html' %}
+    <title>Feedback</title> 
+</head>
+<body>
+    
+    {% block b1 %}
+    <h1>Feedback!</h1>
+    <form action="" method="post">{% csrf_token %}
+    <div class="row">
+        <div class="col-md-3">
+        <label for="">Enter the Name</label>
+        <input type="text" name="name" value=""><br>
+        <label for="">Enter the Rating</label>
+        <input type="number" name="rating"><br>
+        <label for="">Enter Feedback</label>
+        <input type="teaxtarea" name="feedback"><br>
+        <input type="submit" value="submit">
+        <input type="reset" value="cancel">
+        </div>
+    </div>
+    </form>
+
+    {%for f in form %}
+    {{f.name}}
+    {{f.rating}}
+    {{f.feedback}}
+    {{f.create_at}}
+    {{'-------------------'}}
+    {% endfor %}
+
+    {% endblock b1 %}
+    
+
+</body>
+</html>
