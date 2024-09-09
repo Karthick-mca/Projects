@@ -73,12 +73,12 @@
 - **Tech Stack:** MERN.
 - **Front-end:** HTML, CSS, JavaScript.
 - **Front-end Frameworks:** jQuery, Materialize, Bootstrap, React.js, Node.js, Expres.js.
-- **Back-end: ** Python.
+- **Back-end:** Python.
 - **Back-end Frameworks:** Nodejs, Django.
 - **Computer Science Fundamentals:** Data Structures, Algorithms
 - **Databases:** MySQL, NoSQL.
 - **Version Control:** GitHub, CI/CD, Rest API, bitbucket.
-- **Other Tools: ** VS Code, JIRA, Docker.
+- **Other Tools:** VS Code, JIRA, Docker.
 ## Additional Details
 - I have end-to-end skills Frontend and Backend technologies.
 - I have work experience of around 6 months as a full stack developer intern. 
